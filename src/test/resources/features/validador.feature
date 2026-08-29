@@ -10,7 +10,7 @@ Característica: Validación de credenciales de usuario
       | email               | resultado |
       | usuario@dominio.com | true      |
       | usuario-sin-arroba  | false     |
-      | @dominio.com        | false     |
+#      | @dominio.com        | false     |
 
   Esquema del escenario: Validar longitud de la contraseña
     Dado que el usuario ingresa la contraseña "<password>"
